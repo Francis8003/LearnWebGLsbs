@@ -1,6 +1,8 @@
-function main() {
+function main()
+{
     var canvas = document.getElementById('canvas');
-    if (!canvas) {
+    if (!canvas)
+    {
         console.log('Failed to retrieve the <canvas> element');
         return;
     }
