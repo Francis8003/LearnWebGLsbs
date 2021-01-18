@@ -30,6 +30,7 @@ function main(  )
     }
 
     gl.clearColor(0.0,0.0,0.0,1.0);
+
     gl.clear(gl.COLOR_BUFFER_BIT);
 }
     var g_points=[];
@@ -85,5 +86,4 @@ var FSHADER_SOURCE =
     'void main(){\n'+
     'gl_FragColor=u_FragColor;\n'+
     '}\n';
-
     
